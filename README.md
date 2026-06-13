@@ -6,6 +6,12 @@ The official dataset, RDF/Turtle file, GUI, and versioned releases are archived 
 
 Contributors should not edit or submit RDF/Turtle files manually. New records should be submitted through the GitHub issue form using the same metadata fields used in the Excel-to-RDF workflow.
 
+## Submit a new antenna record
+
+To suggest a new CubeSat antenna record for a future dataset update, please use the GitHub issue form:
+
+https://github.com/NWPU-2022180033/CubeSat-Antenna-RDF-Contributions/issues/new?template=new_antenna_record.yml
+
 ## Contribution workflow
 
 1. A contributor submits a new CubeSat antenna record using the GitHub issue form.

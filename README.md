@@ -20,7 +20,7 @@ https://github.com/NWPU-2022180033/CubeSat-Antenna-RDF-Contributions/issues/new?
 4. The RDF/Turtle file is regenerated using the RDF creation script.
 5. The regenerated RDF file is validated before release.
 6. Updated dataset versions are archived on Figshare.
-7. Update will be done Quarterly basis
+7. Dataset updates will be released periodically after verification of accepted submissions.
 
 ## What information should be submitted?
 

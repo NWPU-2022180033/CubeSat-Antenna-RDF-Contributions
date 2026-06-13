@@ -5,7 +5,7 @@ labels: ["new-data", "needs-review"]
 
 body:
 
-* type: markdown
+- type: markdown
   attributes:
   value: |
   Please fill the fields below using values reported in the source paper.
@@ -13,7 +13,7 @@ body:
   If a value is not available, write "Not Found".
   Do not submit or edit RDF/Turtle files manually.
 
-* type: textarea
+- type: markdown
   id: refDescription
   attributes:
   label: refDescription
@@ -22,7 +22,7 @@ body:
   validations:
   required: true
 
-* type: input
+- type: markdown
   id: refNumber
   attributes:
   label: refNumber
@@ -31,7 +31,7 @@ body:
   validations:
   required: false
 
-* type: input
+- type: markdown
   id: hasFrequency
   attributes:
   label: hasFrequency
@@ -39,7 +39,7 @@ body:
   validations:
   required: true
 
-* type: input
+- type: markdown
   id: hasOriginalSizeL
   attributes:
   label: hasOriginalSizeL
@@ -47,7 +47,7 @@ body:
   validations:
   required: false
 
-* type: input
+- type: markdown
   id: hasOriginalSizeW
   attributes:
   label: hasOriginalSizeW
@@ -55,7 +55,7 @@ body:
   validations:
   required: false
 
-* type: input
+- type: markdown
   id: hasOriginalSizeH
   attributes:
   label: hasOriginalSizeH
@@ -63,7 +63,7 @@ body:
   validations:
   required: false
 
-* type: input
+- type: markdown
   id: hasStowedSizeL
   attributes:
   label: hasStowedSizeL
@@ -71,7 +71,7 @@ body:
   validations:
   required: false
 
-* type: input
+- type: markdown
   id: hasStowedSizeW
   attributes:
   label: hasStowedSizeW
@@ -79,7 +79,7 @@ body:
   validations:
   required: false
 
-* type: input
+- type: markdown
   id: hasStowedSizeH
   attributes:
   label: hasStowedSizeH
@@ -87,7 +87,7 @@ body:
   validations:
   required: false
 
-* type: input
+- type: markdown
   id: hasFlowFrequency
   attributes:
   label: hasFlowFrequency
@@ -96,7 +96,7 @@ body:
   validations:
   required: false
 
-* type: input
+- type: markdown
   id: hasFHighFrequency
   attributes:
   label: hasFHighFrequency
@@ -105,7 +105,7 @@ body:
   validations:
   required: false
 
-* type: input
+- type: markdown
   id: hasBandwidth
   attributes:
   label: hasBandwidth
@@ -113,7 +113,7 @@ body:
   validations:
   required: false
 
-* type: input
+- type: markdown
   id: has3dBHPBW
   attributes:
   label: has3dBHPBW
@@ -121,7 +121,7 @@ body:
   validations:
   required: false
 
-* type: input
+- type: markdown
   id: hasMaxGain
   attributes:
   label: hasMaxGain
@@ -129,7 +129,7 @@ body:
   validations:
   required: false
 
-* type: input
+- type: markdown
   id: hasGainBandwidth
   attributes:
   label: hasGainBandwidth
@@ -137,7 +137,7 @@ body:
   validations:
   required: false
 
-* type: input
+- type: markdown
   id: hasS11
   attributes:
   label: hasS11
@@ -145,7 +145,7 @@ body:
   validations:
   required: false
 
-* type: input
+- type: markdown
   id: antennaType
   attributes:
   label: antennaType
@@ -153,7 +153,7 @@ body:
   validations:
   required: true
 
-* type: input
+- type: markdown
   id: antennaSubtype
   attributes:
   label: antennaSubtype
@@ -161,7 +161,7 @@ body:
   validations:
   required: false
 
-* type: dropdown
+- type: markdown
   id: isDeployable
   attributes:
   label: isDeployable
@@ -172,7 +172,7 @@ body:
   validations:
   required: true
 
-* type: input
+- type: markdown
   id: cubeSatType
   attributes:
   label: cubeSatType
@@ -180,7 +180,7 @@ body:
   validations:
   required: true
 
-* type: dropdown
+- type: markdown
   id: isFabricated
   attributes:
   label: isFabricated
@@ -191,7 +191,7 @@ body:
   validations:
   required: true
 
-* type: input
+- type: markdown
   id: hasBand
   attributes:
   label: hasBand
@@ -199,7 +199,7 @@ body:
   validations:
   required: true
 
-* type: input
+- type: markdown
   id: hasPolarization
   attributes:
   label: hasPolarization
@@ -207,7 +207,7 @@ body:
   validations:
   required: false
 
-* type: input
+- type: markdown
   id: hasAR
   attributes:
   label: hasAR
@@ -215,7 +215,7 @@ body:
   validations:
   required: false
 
-* type: input
+- type: markdown
   id: hasRadiationPattern
   attributes:
   label: hasRadiationPattern
@@ -223,7 +223,7 @@ body:
   validations:
   required: false
 
-* type: input
+- type: markdown
   id: hasEfficiency
   attributes:
   label: hasEfficiency
@@ -231,7 +231,7 @@ body:
   validations:
   required: false
 
-* type: input
+- type: markdown
   id: hasApplication
   attributes:
   label: hasApplication

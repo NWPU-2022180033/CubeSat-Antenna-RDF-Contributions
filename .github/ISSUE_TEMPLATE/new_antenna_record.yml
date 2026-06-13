@@ -4,237 +4,236 @@ title: "[New antenna record]: "
 labels: ["new-data", "needs-review"]
 
 body:
+  - type: markdown
+    attributes:
+      value: |
+        Please fill the fields below using values reported in the source paper.
+        Use the same metadata fields as the Excel-to-RDF dataset.
+        If a value is not available, write "Not Found".
+        Do not submit or edit RDF/Turtle files manually.
 
-- type: markdown
-  attributes:
-  value: |
-  Please fill the fields below using values reported in the source paper.
-  Use the same metadata fields as the Excel-to-RDF dataset.
-  If a value is not available, write "Not Found".
-  Do not submit or edit RDF/Turtle files manually.
+  - type: textarea
+    id: refDescription
+    attributes:
+      label: refDescription
+      description: Full paper reference, including authors, title, journal/conference, year, and DOI if available.
+      placeholder: "Author(s), title, journal/conference, year, DOI"
+    validations:
+      required: true
 
-- type: markdown
-  id: refDescription
-  attributes:
-  label: refDescription
-  description: Full paper reference, including authors, title, journal/conference, year, and DOI if available.
-  placeholder: "Author(s), title, journal/conference, year, DOI"
-  validations:
-  required: true
+  - type: input
+    id: refNumber
+    attributes:
+      label: refNumber
+      description: Leave as Not Found if unknown. Maintainers may assign this.
+      placeholder: "Not Found"
+    validations:
+      required: false
 
-- type: markdown
-  id: refNumber
-  attributes:
-  label: refNumber
-  description: Leave as Not Found if unknown. Maintainers may assign this.
-  placeholder: "Not Found"
-  validations:
-  required: false
+  - type: input
+    id: hasFrequency
+    attributes:
+      label: hasFrequency
+      placeholder: "e.g., 2.4 GHz"
+    validations:
+      required: true
 
-- type: markdown
-  id: hasFrequency
-  attributes:
-  label: hasFrequency
-  placeholder: "e.g., 2.4 GHz"
-  validations:
-  required: true
+  - type: input
+    id: hasOriginalSizeL
+    attributes:
+      label: hasOriginalSizeL
+      placeholder: "e.g., 100 or Not Found"
+    validations:
+      required: false
 
-- type: markdown
-  id: hasOriginalSizeL
-  attributes:
-  label: hasOriginalSizeL
-  placeholder: "e.g., 100 or Not Found"
-  validations:
-  required: false
+  - type: input
+    id: hasOriginalSizeW
+    attributes:
+      label: hasOriginalSizeW
+      placeholder: "e.g., 80 or Not Found"
+    validations:
+      required: false
 
-- type: markdown
-  id: hasOriginalSizeW
-  attributes:
-  label: hasOriginalSizeW
-  placeholder: "e.g., 80 or Not Found"
-  validations:
-  required: false
+  - type: input
+    id: hasOriginalSizeH
+    attributes:
+      label: hasOriginalSizeH
+      placeholder: "e.g., 1.6 or Not Found"
+    validations:
+      required: false
 
-- type: markdown
-  id: hasOriginalSizeH
-  attributes:
-  label: hasOriginalSizeH
-  placeholder: "e.g., 1.6 or Not Found"
-  validations:
-  required: false
+  - type: input
+    id: hasStowedSizeL
+    attributes:
+      label: hasStowedSizeL
+      placeholder: "e.g., 100 or Not Found"
+    validations:
+      required: false
 
-- type: markdown
-  id: hasStowedSizeL
-  attributes:
-  label: hasStowedSizeL
-  placeholder: "e.g., 100 or Not Found"
-  validations:
-  required: false
+  - type: input
+    id: hasStowedSizeW
+    attributes:
+      label: hasStowedSizeW
+      placeholder: "e.g., 80 or Not Found"
+    validations:
+      required: false
 
-- type: markdown
-  id: hasStowedSizeW
-  attributes:
-  label: hasStowedSizeW
-  placeholder: "e.g., 80 or Not Found"
-  validations:
-  required: false
+  - type: input
+    id: hasStowedSizeH
+    attributes:
+      label: hasStowedSizeH
+      placeholder: "e.g., 10 or Not Found"
+    validations:
+      required: false
 
-- type: markdown
-  id: hasStowedSizeH
-  attributes:
-  label: hasStowedSizeH
-  placeholder: "e.g., 10 or Not Found"
-  validations:
-  required: false
+  - type: input
+    id: hasFlowFrequency
+    attributes:
+      label: hasFlowFrequency
+      description: Lower operating frequency.
+      placeholder: "e.g., 2.2 or Not Found"
+    validations:
+      required: false
 
-- type: markdown
-  id: hasFlowFrequency
-  attributes:
-  label: hasFlowFrequency
-  description: Lower operating frequency.
-  placeholder: "e.g., 2.2 or Not Found"
-  validations:
-  required: false
+  - type: input
+    id: hasFHighFrequency
+    attributes:
+      label: hasFHighFrequency
+      description: Higher operating frequency.
+      placeholder: "e.g., 2.5 or Not Found"
+    validations:
+      required: false
 
-- type: markdown
-  id: hasFHighFrequency
-  attributes:
-  label: hasFHighFrequency
-  description: Higher operating frequency.
-  placeholder: "e.g., 2.5 or Not Found"
-  validations:
-  required: false
+  - type: input
+    id: hasBandwidth
+    attributes:
+      label: hasBandwidth
+      placeholder: "e.g., 300 MHz, 12%, or Not Found"
+    validations:
+      required: false
 
-- type: markdown
-  id: hasBandwidth
-  attributes:
-  label: hasBandwidth
-  placeholder: "e.g., 300 MHz, 12%, or Not Found"
-  validations:
-  required: false
+  - type: input
+    id: has3dBHPBW
+    attributes:
+      label: has3dBHPBW
+      placeholder: "e.g., 65 or Not Found"
+    validations:
+      required: false
 
-- type: markdown
-  id: has3dBHPBW
-  attributes:
-  label: has3dBHPBW
-  placeholder: "e.g., 65 or Not Found"
-  validations:
-  required: false
+  - type: input
+    id: hasMaxGain
+    attributes:
+      label: hasMaxGain
+      placeholder: "e.g., 7.2 or Not Found"
+    validations:
+      required: false
 
-- type: markdown
-  id: hasMaxGain
-  attributes:
-  label: hasMaxGain
-  placeholder: "e.g., 7.2 or Not Found"
-  validations:
-  required: false
+  - type: input
+    id: hasGainBandwidth
+    attributes:
+      label: hasGainBandwidth
+      placeholder: "Not Found"
+    validations:
+      required: false
 
-- type: markdown
-  id: hasGainBandwidth
-  attributes:
-  label: hasGainBandwidth
-  placeholder: "Not Found"
-  validations:
-  required: false
+  - type: input
+    id: hasS11
+    attributes:
+      label: hasS11
+      placeholder: "e.g., -18 or Not Found"
+    validations:
+      required: false
 
-- type: markdown
-  id: hasS11
-  attributes:
-  label: hasS11
-  placeholder: "e.g., -18 or Not Found"
-  validations:
-  required: false
+  - type: input
+    id: antennaType
+    attributes:
+      label: antennaType
+      placeholder: "e.g., Patch, Monopole, Helical, Reflectarray"
+    validations:
+      required: true
 
-- type: markdown
-  id: antennaType
-  attributes:
-  label: antennaType
-  placeholder: "e.g., Patch, Monopole, Helical, Reflectarray"
-  validations:
-  required: true
+  - type: input
+    id: antennaSubtype
+    attributes:
+      label: antennaSubtype
+      placeholder: "e.g., Circular Patch, Folded Monopole, Not Found"
+    validations:
+      required: false
 
-- type: markdown
-  id: antennaSubtype
-  attributes:
-  label: antennaSubtype
-  placeholder: "e.g., Circular Patch, Folded Monopole, Not Found"
-  validations:
-  required: false
+  - type: dropdown
+    id: isDeployable
+    attributes:
+      label: isDeployable
+      options:
+        - "Yes"
+        - "No"
+        - "Not Found"
+    validations:
+      required: true
 
-- type: markdown
-  id: isDeployable
-  attributes:
-  label: isDeployable
-  options:
-  - "Yes"
-  - "No"
-  - "Not Found"
-  validations:
-  required: true
+  - type: input
+    id: cubeSatType
+    attributes:
+      label: cubeSatType
+      placeholder: "e.g., 1U, 3U, 6U, 12U"
+    validations:
+      required: true
 
-- type: markdown
-  id: cubeSatType
-  attributes:
-  label: cubeSatType
-  placeholder: "e.g., 1U, 3U, 6U, 12U"
-  validations:
-  required: true
+  - type: dropdown
+    id: isFabricated
+    attributes:
+      label: isFabricated
+      options:
+        - "Yes"
+        - "No"
+        - "Not Found"
+    validations:
+      required: true
 
-- type: markdown
-  id: isFabricated
-  attributes:
-  label: isFabricated
-  options:
-  - "Yes"
-  - "No"
-  - "Not Found"
-  validations:
-  required: true
+  - type: input
+    id: hasBand
+    attributes:
+      label: hasBand
+      placeholder: "e.g., UHF, VHF, S, X, Ka"
+    validations:
+      required: true
 
-- type: markdown
-  id: hasBand
-  attributes:
-  label: hasBand
-  placeholder: "e.g., UHF, VHF, S, X, Ka"
-  validations:
-  required: true
+  - type: input
+    id: hasPolarization
+    attributes:
+      label: hasPolarization
+      placeholder: "e.g., LP, CP, RHCP, LHCP, Not Found"
+    validations:
+      required: false
 
-- type: markdown
-  id: hasPolarization
-  attributes:
-  label: hasPolarization
-  placeholder: "e.g., LP, CP, RHCP, LHCP, Not Found"
-  validations:
-  required: false
+  - type: input
+    id: hasAR
+    attributes:
+      label: hasAR
+      placeholder: "e.g., 2.5 or Not Found"
+    validations:
+      required: false
 
-- type: markdown
-  id: hasAR
-  attributes:
-  label: hasAR
-  placeholder: "e.g., 2.5 or Not Found"
-  validations:
-  required: false
+  - type: input
+    id: hasRadiationPattern
+    attributes:
+      label: hasRadiationPattern
+      placeholder: "e.g., Omni, Directional, Broadside, Not Found"
+    validations:
+      required: false
 
-- type: markdown
-  id: hasRadiationPattern
-  attributes:
-  label: hasRadiationPattern
-  placeholder: "e.g., Omni, Directional, Broadside, Not Found"
-  validations:
-  required: false
+  - type: input
+    id: hasEfficiency
+    attributes:
+      label: hasEfficiency
+      placeholder: "e.g., 78 or Not Found"
+    validations:
+      required: false
 
-- type: markdown
-  id: hasEfficiency
-  attributes:
-  label: hasEfficiency
-  placeholder: "e.g., 78 or Not Found"
-  validations:
-  required: false
-
-- type: markdown
-  id: hasApplication
-  attributes:
-  label: hasApplication
-  placeholder: "e.g., TT&C, Remote Sensing, Deep Space Mission, GPS Navigation"
-  validations:
-  required: true
+  - type: input
+    id: hasApplication
+    attributes:
+      label: hasApplication
+      placeholder: "e.g., TT&C, Remote Sensing, Deep Space Mission, GPS Navigation"
+    validations:
+      required: true

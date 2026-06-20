@@ -1,6 +1,6 @@
 # CubeSat Antenna RDF Dataset Contributions
 
-This repository is a community contribution portal for future updates of the CubeSat antenna RDF dataset.
+This repository is a community contribution portal for future updates and correction of the CubeSat antenna RDF dataset.
 
 The official dataset, RDF/Turtle file, GUI, and versioned releases are archived on Figshare. This GitHub repository is used only to collect and track new antenna-record suggestions from the community.
 

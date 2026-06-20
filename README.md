@@ -24,7 +24,7 @@ https://github.com/NWPU-2022180033/CubeSat-Antenna-RDF-Contributions/issues/new?
 
 ## What information should be submitted?
 
-Contributors should provide antenna metadata reported in the source paper, including reference description, frequency, antenna type, CubeSat type, band, polarization, gain, bandwidth, efficiency, radiation pattern, fabrication status, deployment status, and application.
+Contributors should provide antenna metadata reported in the source paper, including reference description, frequency, antenna type, CubeSat type, band, polarization, gain, bandwidth, efficiency, radiation pattern, fabrication status, deployment status, and application. All units will be followed same as given in the manuscript figshare database.
 
 If a value is not reported in the source paper, contributors should write:
 
